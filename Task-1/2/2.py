@@ -7,8 +7,8 @@ with open("F1.txt",'r') as f1:
         with open("F3.txt",'w') as f3:
             f1c = f1.read()
             f2c = f2.read()
-            f1.seek(0)
-            f2.seek(0)
+            #f1.seek(0)
+            #f2.seek(0)
             i=j=0
             while i < len(f1c) or j < len(f2c):
                 word1 = ""
