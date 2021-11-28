@@ -1,4 +1,4 @@
-**Importing Packages:**
+**Importing Packages:**  
 import numpy as np  
 import pandas as pd  
 from sklearn import datasets, linear_model  
@@ -10,7 +10,9 @@ import seaborn as sns
 
 **Code:**
 `diabetes_X, diabetes_y = datasets.load_diabetes(return_X_y=True)  
+
 diabetes_X = diabetes_X[:, np.newaxis, 2]  
+
 plt.plot(diabetes_X,diabetes_y,'ro',alpha=0.5)  `
 
 
