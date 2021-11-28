@@ -1,3 +1,5 @@
+Surviving the Titanic
+===
 **Importing packages**
 ```py
 import numpy as np  
@@ -15,7 +17,7 @@ import seaborn as sns
 titanic = data('titanic')
 titanic.sample(5)
 ```
-![Image](Graphs/.png)
+
 
 **Plotting the data- Survival based on gender**
 ```py
@@ -65,4 +67,4 @@ plt.scatter(ind,Y_test, color='g',alpha=0.5)
 model2.score(X_test,Y_test)
 ```
 
-
+The logistic regression is a technique in machine learning for classifying objects into different classes based on certain features. Generally it uses a sigmoid function or similar functions to hypothesize the output based on the input features, in most cases, a output between 0 and 1 which measures the probability of the example fitting in the class 1 or posititve class. The solver lbfgs — Stands for Limited-memory Broyden–Fletcher–Goldfarb–Shanno approximates the second derivative matrix updates with gradient evaluations. It stores only the last few updates, so it saves memory. The solvers are basically used to optimize the cost function in a computationally efficient way.
