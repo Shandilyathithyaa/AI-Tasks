@@ -49,5 +49,7 @@ print("Mean squared error: %.2f" % mean_squared_error(Y_test,predictions))
 print("Coefficient of determination: %.2f" % r2_score(Y_test,predictions))
 ```
 
+
+
 The linear regression is a technique to model a given set of data to a corresponding label or quantity such that the model can be used later to predict a new set of data that falls under/similar set to the ones with which the model has been trained. It is generally used to predict a dataset that is distributed continuously over a range.
 The object model creates a hypothesis by training using the training set passed to the `fit()` function. Then the predictions are obtained using `predict()`. Finally for result analysis we find Coefficients, MeanSquaredError and Coefficient of Determination.
